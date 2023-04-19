@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.top{
+    font-family: sans-serif; 
+    
+    height: 230px;
+    margin:25px 80px 25px 80px;
+    /* border: 1px solid red; */
+    box-shadow: 3px 3px 5px 5px green;
+    display: flex;
+    flex-direction: row;
+    background-color: #f5f6fa;
+}
+.avatar_left{
+    width: 250px;
+    margin-right: 100px;
+}
+.avatar_left img{
+    height: 100%;
+    width: 100%;
+}
+.heading{
+    padding-top: 15px;
+}
+.heading h1{
+    font-size: 2rem;
+    font-weight: 700;
+}
+.heading p{
+    font-size: 1.1rem;
+    font-weight: 600;
+    padding-top: 5px;
+}
